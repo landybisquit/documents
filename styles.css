@@ -1,0 +1,56 @@
+@charset "utf-8";
+h1, h2, h3, p {
+	font-family: Segoe UI, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; 
+	color: white; 
+	text-align: center;
+}
+html, body {
+	background-color: black; 
+	margin: 0; 
+	padding: 0; 
+	top: 0; 
+	left: 0; 
+	right:0;
+}
+nav {
+	position: sticky;
+	top: 0;
+	width: 100%; 
+	margin-top: 0;
+	z-index: 1;
+}
+.header {
+	display: flex; 
+	justify-content: space-between; 
+	padding: 0; 
+	background-color: #0067c0; 
+	color: white; 
+	font-family: "Segoe Print";
+	margin: 0;
+}
+.section {
+	display: flex; 
+	align-items: center;
+}
+.buttons {
+	padding: 10px; 
+	transition: .5s; 
+	font-family: Comic Sans MS;
+}
+.buttons a {
+	text-decoration: none;
+}
+.tittle {
+	margin-right: 10px; 
+	font-family: "Segoe Print"; 
+	font-weight: bold;
+}
+.buttons:hover {
+	background-color: #0067f9;
+}
+section {
+	margin: 3% 10% 3% 10%;
+}
+p a {
+	color: rgba(0,103,192,1.00); 
+}
